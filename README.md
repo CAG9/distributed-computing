@@ -1,10 +1,16 @@
 # Project Readme
 Tittle: Correlation between tweets with the word donald trump and the price of the amaerican dollar
+
 Authors: César Arcos Gonzalez, Saul Armas Gamiño
+
 Contact information: César Arcos Gonzalez: racec9999@gmail.com, Saul Armas Gamiño:luasikirfl@gmail.com
+
 License : CC BY-NC
+
 Installation and execution information: to run the file you need to use python and install tweepy,set the twitter credentials in a file named twitter_credentials.py
+
 Introductions: we set the principal libraries to get the  twitter data and we did a test with the words Donald Trump
+
 implementation: code : racec9999/distributed-computing/witter_streamer.py
 
 Results: we got a lot of tweets data like this:
