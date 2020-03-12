@@ -1,5 +1,5 @@
 # Project Readme
-Tittle: Correlation between tweets with the word donald trump and the price of the amaerican dollar
+Title: Correlation between tweets with the word donald trump and the price of the amaerican dollar
 
 Authors: César Arcos Gonzalez, Saul Armas Gamiño
 
