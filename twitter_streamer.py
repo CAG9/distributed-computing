@@ -24,4 +24,4 @@ if __name__ == "__main__":
     
     stream = Stream(auth,listener)
     
-    stream.filter(track=['#DonaldTrump'])
+    stream.filter(track=['Donald Trump'])
