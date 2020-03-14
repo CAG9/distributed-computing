@@ -12,9 +12,7 @@ César Arcos Gonzalez: racec9999@gmail.com, Saul Armas Gamiño:luasikirfl@gmail.
 CC BY-NC
 
 ## Installation and execution information:
-To run the file you need to use python and install tweepy and install forex-python,set the twitter credentials in a file named twitter_credentials.py  
-http://www.tweepy.org/      
-https://pypi.org/project/forex-python/
+To run the file you need to use python and install tweepy and install forex-python,set the twitter credentials in a file named twitter_credentials.py
 
 ## Introductions: 
 we set the principal libraries to get the  twitter data, we did a test with the words Donald Trump and the usd dollar price in mexican pesos
@@ -47,6 +45,7 @@ We are going to track the count of tweets countains Donald Trump words in a day.
 
 
 ## Data source:
-- Twitter
--FOrex
+- Twitter http://www.tweepy.org/      
+
+- FOrex https://pypi.org/project/forex-python/
 
