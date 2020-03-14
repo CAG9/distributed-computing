@@ -13,6 +13,8 @@ CC BY-NC
 
 ## Installation and execution information:
 To run the file you need to use python and install tweepy and install forex-python,set the twitter credentials in a file named twitter_credentials.py
+http://www.tweepy.org/
+https://pypi.org/project/forex-python/
 
 ## Introductions: 
 we set the principal libraries to get the  twitter data, we did a test with the words Donald Trump and the usd dollar price in mexican pesos
