@@ -21,7 +21,7 @@ we set the principal libraries to get the  twitter data, we did a test with the 
 code : racec9999/distributed-computing/witter_streamer.py
 
 ## Results:
-we can obtain 18,000 tweets every 15min,on json format, after that, we will analise them to decide which is useful for the proyect.
+we can obtain 18,000 tweets every 15min,on json format, after that, we will analise them to decide which is useful for the proyect.   
 price of the dollar at the moment: 21.4188580692
 
 
