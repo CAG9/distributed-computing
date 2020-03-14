@@ -22,3 +22,8 @@ if __name__ == "__main__":
     c = CurrencyRates()
     print(c.get_rate('USD', 'MXN'))
     stream.filter(track=['donald trump'])
+
+#license Attribution-NonCommercial 4.0 International
+#contac:
+#César Arcos Gonzalez: racec9999@gmail.com
+#Saul Armas Gamiño:luasikirfl@gmail.com
