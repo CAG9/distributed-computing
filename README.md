@@ -12,7 +12,7 @@ César Arcos Gonzalez: racec9999@gmail.com, Saul Armas Gamiño:luasikirfl@gmail.
 CC BY-NC
 
 ## Installation and execution information:
-To run the file you need to use python and install tweepy and install forex-python,set the twitter credentials in a file named twitter_credentials.py
+To run the file you need to use python and install tweepy ( https://www.tweepy.org/ ) and install forex-python ( https://pypi.org/project/forex-python/ ),set the twitter credentials in a file named twitter_credentials.py
 
 ## Introductions: 
 we set the principal libraries to get the  twitter data, we did a test with the words Donald Trump and the usd dollar price in mexican pesos
@@ -21,7 +21,7 @@ we set the principal libraries to get the  twitter data, we did a test with the 
 code : racec9999/distributed-computing/witter_streamer.py
 
 ## Results:
-we can obtain 18,000 tweets every 15min,on json format, after that, we will analise them to decide which is useful for the proyect.   
+we can get 18000 tweets every 15 min, we will analise them to decide which is useful for the proyect. Following we're going to add the tweets to a pandas dataframe and count it.   
 price of the dollar at the moment: 21.4188580692
 
 
