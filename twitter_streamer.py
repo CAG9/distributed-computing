@@ -1,8 +1,9 @@
-#license Attribution-NonCommercial 4.0 International
-#contac:
-#César Arcos Gonzalez: racec9999@gmail.com
-#Saul Armas Gamiño:luasikirfl@gmail.com
-
+"""
+License Attribution-NonCommercial 4.0 International
+Contac:
+    César Arcos Gonzalez: racec9999@gmail.com
+    Saul Armas Gamiño: luasikirfl@gmail.com
+"""
 from tweepy.streaming import StreamListener
 from tweepy import OAuthHandler
 from tweepy import Stream 
