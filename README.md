@@ -11,6 +11,9 @@ César Arcos Gonzalez: racec9999@gmail.com, Saul Armas Gamiño:luasikirfl@gmail.
 ## License : 
 CC BY-NC
 
+## Introductions: 
+We set the principal libraries to get the  twitter data, we did a test with the words Donald Trump and the usd dollar price in mexican pesos
+
 ## Installation and execution information:
 how to install and run this project
 - First, you need to install MySQL:
@@ -51,8 +54,7 @@ On the carpet “proyect” put the scripts “collecting_data.py”, ”data_pr
 You will need change a little details on “storedb.py” and “data_process”, change the variable PATH according to your project.
 
 We upload a json files that you can use to test, only download and put this files on “project” 
-## Introductions: 
-We set the principal libraries to get the  twitter data, we did a test with the words Donald Trump and the usd dollar price in mexican pesos
+
 
 ## implementation: 
 Code : racec9999/distributed-computing/witter_streamer.py
