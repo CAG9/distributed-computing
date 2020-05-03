@@ -23,6 +23,7 @@ Code : racec9999/distributed-computing/witter_streamer.py
 ## Results:
 We can get a chart that show two lines,dollar to mexican pesos and the amount of tweets with the hashtag:#DonaldTrump
 the x labels are the specific dates of our amount of tweets and dollar,an illustrative overview. 
+![picture](https://user-images.githubusercontent.com/60860385/80922946-063b5400-8d46-11ea-8c93-3f2ac38ff3b7.png)
 
 
 ## Project definition:
