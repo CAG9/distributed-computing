@@ -21,8 +21,8 @@ We set the principal libraries to get the  twitter data, we did a test with the 
 Code : racec9999/distributed-computing/witter_streamer.py
 
 ## Results:
-We can get 18000 tweets every 15 min, we will analise them to decide which is useful for the proyect. Following we're going to add the tweets to a pandas dataframe and count it.   
-Price of the dollar at the moment: 21.4188580692
+We can get a chart that show two lines,dollar to mexican pesos and the amount of tweets with the hashtag:#DonaldTrump
+the x labels are the specific dates of our amount of tweets and dollar,an illustrative overview. 
 
 
 ## Project definition:
