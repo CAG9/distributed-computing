@@ -59,6 +59,18 @@ We upload a json files that you can use to test, only download and put this file
 ## implementation: 
 Code : racec9999/distributed-computing/witter_streamer.py
 
+## Diagrams
+-Processing data diagram
+![dataprocess](https://user-images.githubusercontent.com/60860385/80925163-448b4000-8d53-11ea-9d75-fb1c3dcf8dd6.jpg)
+-Information flow diagram (local)
+![datafllcoal](https://user-images.githubusercontent.com/60860385/80925223-a64baa00-8d53-11ea-86d4-d5adbcf2b269.jpg)
+-Information flow diagram (online) 
+![dataflinternet](https://user-images.githubusercontent.com/60860385/80925268-e9a61880-8d53-11ea-8a7a-d05a0fcd7bc2.jpg)
+-Logical connections diagram (local)
+![logicalconnectionlocal](https://user-images.githubusercontent.com/60860385/80925301-32f66800-8d54-11ea-8e4d-223cae509199.jpg)
+-Logical connections diagram (online)
+![logicalconectionsinternet](https://user-images.githubusercontent.com/60860385/80925309-473a6500-8d54-11ea-859e-360af1b81bb2.jpg)
+
 ## Results:
 We can get a chart that show two lines,dollar to mexican pesos and the amount of tweets with the hashtag:#DonaldTrump
 the x labels are the specific dates of our amount of tweets and dollar,an illustrative overview. 
