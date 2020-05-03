@@ -1,3 +1,9 @@
+"""
+License Attribution-NonCommercial 4.0 International
+Contac:
+    César Arcos Gonzalez: racec9999@gmail.com
+    Saul Armas Gamiño: luasikirfl@gmail.com
+"""
 import mysql.connector
 from mysql.connector import errorcode
 import json
@@ -44,8 +50,6 @@ except mysql.connector.Error as err:
 else:
     cnx.close()
     cnx.close()
-
-
 
 arr = np.array(tweet_process)
 arr = np.true_divide(arr, 100)
