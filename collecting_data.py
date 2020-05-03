@@ -11,18 +11,13 @@ from datetime import datetime
 import json
 from datetime import timedelta
 
-
-
 class StdOutListener(StreamListener):#inherit from stream listener
-
     def on_data(self,data): #listening for tweets
         print(data)
         return True
 
     def on_error(self,status):
         print(status)
-
-
 
 if __name__ == "__main__":
 
@@ -31,33 +26,23 @@ if __name__ == "__main__":
     auth = OAuthHandler(twitter_credentials.CONSUMER_KEY,twitter_credentials.CONSUMER_KEY_SECRET)
     auth.set_access_token(twitter_credentials.ACCESS_TOKEN,twitter_credentials.ACCESS_TOKEN_SECRET)
     api = tweepy.API(auth,wait_on_rate_limit = True)
-
     arr = []
-
-
     stream = Stream(auth,listener)
+    # automate tweet date
     today = datetime.today().strftime('%Y-%m-%d')
-    yesterday = datetime.strftime(datetime.now() - timedelta(1),'%Y-%m-%d')
-
-    
+    tomorrow = datetime.strftime(datetime.now() + timedelta(1),'%Y-%m-%d')
     tweets = 0
-    #'#DonaldTrump since:2020-04-27 until:2020-04-28'
-    Tdate = '#DonaldTrump since:'+yesterday+' until:'+today
+    # Selection hashtag and day 
+    Tdate = '#DonaldTrump since:'+today+' until:'+tomorrow
     for tweet in tweepy.Cursor(api.search, q=Tdate, count=100).items(MAX_TWEETS):
         tweets+=1
-    
     c = CurrencyRates()   
-    dolar_price = c.get_rate('USD', 'MXN')
-    print("today", today)
-    print("Dolar price: "+ str(dolar_price))
-    print("Total tweets: " + str(tweets))
-    
     save_file = {
         'date': today,
         'tweet': tweets,
-        'dolar': dolar_price
+        'dollar': dolar_price
         }
     
-    
-    with open('tweet_collector.json','w') as json_file:
+    file_name = "tweet_collector"+today+".json"
+    with open(file_name,'w') as json_file:
         json.dump(save_file,json_file)
