@@ -68,7 +68,10 @@ Code : racec9999/distributed-computing/witter_streamer.py
 ![dataflinternet](https://user-images.githubusercontent.com/60860385/80925268-e9a61880-8d53-11ea-8a7a-d05a0fcd7bc2.jpg)
 -Logical connections diagram (local)
 ![logicalconnectionlocal](https://user-images.githubusercontent.com/60860385/80925301-32f66800-8d54-11ea-8e4d-223cae509199.jpg)
+
 -Logical connections diagram (online)
+
+
 ![logicalconectionsinternet](https://user-images.githubusercontent.com/60860385/80925309-473a6500-8d54-11ea-859e-360af1b81bb2.jpg)
 
 ## Results:
