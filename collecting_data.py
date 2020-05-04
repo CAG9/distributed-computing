@@ -43,6 +43,7 @@ if __name__ == "__main__":
     for tweet in tweepy.Cursor(api.search, q=Tdate, count=100).items(MAX_TWEETS):
         tweets+=1
     c = CurrencyRates()   
+    dolar_price = c.get_rate('USD', 'MXN')
     save_file = {
         'date': today,
         'tweet': tweets,
@@ -52,3 +53,4 @@ if __name__ == "__main__":
     file_name = "tweet_collector"+today+".json"
     with open(file_name,'w') as json_file:
         json.dump(save_file,json_file)
+
