@@ -18,8 +18,8 @@ We set the principal libraries to get the  twitter data, we did a test with the 
 how to install and run this project
 - First, you need to install Tweepy,Forex-python and MySQL:
     - open a terminal and run the next code:
-    -pip install tweepy
-    -pip install forex-python
+    - pip install tweepy
+    - pip install forex-python
     - sudo apt-get install mysql-server mysql-client
        - the system will ask your password, and before a new password for the root user of MySQL
     - now, you need create the database and the table to save the data, If you closed the terminal before install mysql, open it again, if its already open a terminal, put the next code:
