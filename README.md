@@ -16,51 +16,51 @@ Our goal is to find correlation between the amount of tweets with #DonaldTrump a
 
 
 ## Installation and execution information:
-how to install and run this project
-- First, you need to install Tweepy,Forex-python and MySQL:
+How to install and run this project on linux
+- First, you need to install Tweepy, Forex-python and MySQL:
     - open a terminal and run the next code:
     - pip install tweepy
     - pip install forex-python
     - sudo apt-get install mysql-server mysql-client
-       - the system will ask your password, and before a new password for the root user of MySQL
-    - now, you need create the database and the table to save the data, If you closed the terminal before install mysql, open it again, if its already open a terminal, put the next code:
-    
+       - the system will ask your a password and a new one for the root user of MySQL
+    - now, you need create the database and the table to save the data, If you closed the terminal before install mysql, open it again, if it's already opened , write the nexts commands:
           - sudo su
           - MySQL -h localhost -u root -p
-        ◦ MySQL  will ask you for the password that you create when you install the service.
+        ◦ MySQL  will ask you for the password that you created before when you install the service.
 	When you are inside of MySQL, first, you need create a new user, for this, use the next code:
   
 		CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';
     
-- on this code, replace “new user” for the name that you want, and 	“password” for a real password.
-Next, create a database named “datos”, whit the next code:
+- on this command, replace “new user” for the username  you want, and “password” for a secure password.
+Then, create a database named “datos”, whit the next command:
 
 	CREATE DATABASE datos;
-- on this database, create a table named “tipo_cambio_tweets”,this table will contain the number of tweets,the value of 1 dollar in mexican pesos,and the date of the request,for this use the next code:
+- on this database, create a table named “tipo_cambio_tweets”,this table will contain the amount of tweets,the value of 1 Usa dollar in mexican pesos and the date of the request, for this use the nexts commands:
 
 	- USE datos;
 	- CREATE TABLE tipo_cambio_tweets(date date, tweet int, dollar 	float, primary key(date));
 
- (or if you want another names, you can put whatever you want, but you will need change the document “db.json” that you will create in a future).before this the database will be complete.
+ (or if you want another names, you can write whatever you want, but you will need change the document “db.json” that you will create in a future).Now the database is completed.
 
-Second, you need install mysql-connector-python:
+Second, you need to install mysql-connector-python:
 	pip install mysql-connector-python
-if you get an error, you can find more information about how install this on: https://www.a2hosting.com.mx/kb/developer-corner/mysql/connecting-to-mysql-using-python
+In case you get an error, you can find more information about how to install it here: https://www.a2hosting.com.mx/kb/developer-corner/mysql/connecting-to-mysql-using-python
 
-Next, you need create the directories when the resources will be, create a directory on your home page, named “project”, and inside of this, create a directories named “config” and ”graficas”, on “config” create a json document, named “db.json” whit the next data:
-	{"user":"usuario","password":"12345","host":"127.0.0.1","database":"datos","raise_on_warnings":true}
+Next, you need create the directories where the resources will be, create a directory on your home page, named “project”, and inside of this, create a directories named “config” and ”graficas”, on “config” create a json document, named “db.json” whit the next data:
+	{"user":"your database user","password":"your database password","host":"127.0.0.1","database":"name of your database","raise_on_warnings":true}
 
-Here, replace “usuario” whit the name of the user that you created, change “12345” for the password for the user, and if you don use “datos” for the name of your database, change “datos” for the name that you use.
 
-On the carpet “proyect” put the scripts “collecting_data.py”, ”data_process.py” and “storedb.py”, and the file “twitter_credentials.py”.
+
+In the folder “proyect” put the scripts “collecting_data.py”, ”data_process.py” and “storedb.py”, and the file “twitter_credentials.py”.
 
 You will need change a little details on “storedb.py” and “data_process”, change the variable PATH according to your project.
 
-We upload a json files that you can use to test, only download and put this files on “project” 
+We upload a json files that you can use to test, only download and put this files on “project”.
+To execute first run collecting_data.py this file get the tweets and the usa dollar price and save the information in a json file,now execute storedb.py this script load our json files and save them in the database finally execute data_process.py this script will give you the chart.
 
 
 ## implementation: 
-Code : racec9999/distributed-computing/witter_streamer.py
+Code : racec9999/distributed-computing
 
 ## Diagrams
 -Processing data diagram
