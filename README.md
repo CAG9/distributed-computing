@@ -44,11 +44,12 @@ Then, create a database named “datos”, whit the next command:
  (or if you want another names, you can write whatever you want, but you will need change the document “db.json” that you will create in a future).Now the database is completed.
 
 Second, you need to install mysql-connector-python:
-	pip install mysql-connector-python
+	- pip install mysql-connector-python
 In case you get an error, you can find more information about how to install it here: https://www.a2hosting.com.mx/kb/developer-corner/mysql/connecting-to-mysql-using-python
 
 Next, you need create the directories where the resources will be, create a directory on your home page, named “project”, and inside of this, create a directories named “config” and ”graficas”, on “config” create a json document, named “db.json” whit the next data:
-	{"user":"your database user","password":"your database password","host":"127.0.0.1","database":"name of your database","raise_on_warnings":true}
+
+	{"user":"your database user","password":"your database password","host":"127.0.0.1","database":"name of your 	         database","raise_on_warnings":true}
 
 
 
