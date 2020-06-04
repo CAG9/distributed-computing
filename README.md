@@ -24,10 +24,10 @@ How to install and run this project on linux
     - sudo apt-get install mysql-server mysql-client
        - the system will ask your a password and a new one for the root user of MySQL
     - now, you need create the database and the table to save the data, If you closed the terminal before install mysql, open it again, if it's already opened , write the nexts commands:
-          - sudo su
-          - MySQL -h localhost -u root -p
-        ◦ MySQL  will ask you for the password that you created before when you install the service.
-	When you are inside of MySQL, first, you need create a new user, for this, use the next code:
+    - sudo su
+    - MySQL -h localhost -u root -p
+    ◦ MySQL  will ask you for the password that you created before when you install the service.
+    When you are inside of MySQL, first, you need create a new user, for this, use the next code:
   
 		CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';
     
