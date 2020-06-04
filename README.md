@@ -1,6 +1,6 @@
 # Project Readme
 ## Title: 
-Correlation between tweets with the word donald trump and the price of the american dollar
+Correlation between Donald Trump hashtag and the price of the american dollar in Mexiacan pesos
 
 ## Authors: 
 César Arcos Gonzalez, Saul Armas Gamiño
@@ -12,7 +12,8 @@ César Arcos Gonzalez: racec9999@gmail.com, Saul Armas Gamiño:luasikirfl@gmail.
 CC BY-NC
 
 ## Introductions: 
-We set the principal libraries to get the  twitter data, we did a test with the words Donald Trump and the usd dollar price in mexican pesos
+Our goal is to find correlation between the amount of tweets with #DonaldTrump and the Usa dollar price in Mexican pesos. We get daily twitter data using the python library named Tweepy and the usa dollar price with Forex-python.
+
 
 ## Installation and execution information:
 how to install and run this project
