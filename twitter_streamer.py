@@ -1,6 +1,6 @@
 """
 License Attribution-NonCommercial 4.0 International
-Contac:
+Contact:
     César Arcos Gonzalez: racec9999@gmail.com
     Saul Armas Gamiño: luasikirfl@gmail.com
 """
