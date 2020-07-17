@@ -64,6 +64,16 @@ To execute first run collecting_data.py this file get the tweets and the usa dol
 ## implementation: 
 Code : racec9999/distributed-computing
 
+
+## Project definition:
+We are going to track the count of tweets countains Donald Trump words in a day. with that data we are going to try to find a correlation between Donald Trump count tweets with the usd dollar in mexcan pesos.
+
+## General objectives:
+- Get amount of tweets
+- Get the daily usa dollar price in mexican pesos
+- Find correlations between amout of tweets and usa dollar price 
+- Show  the correlation with a chart
+
 ## Diagrams
 -Processing data diagram
 ![dataprocess](https://user-images.githubusercontent.com/60860385/80925163-448b4000-8d53-11ea-9d75-fb1c3dcf8dd6.jpg)
@@ -78,17 +88,9 @@ the x labels are the specific dates of our amount of tweets and dollar,an illust
 ![picture](https://user-images.githubusercontent.com/60860385/80922946-063b5400-8d46-11ea-8c93-3f2ac38ff3b7.png)
 
 ## Web Page
-We are working in our public web pages,the images are updated every day, currently the web page works locally and looks like this :
+We are working in our public web pages,the images are updated every day, currently the web page works locally and was made it with django
 ![index](https://user-images.githubusercontent.com/60860385/87733612-e5f03280-c795-11ea-84a1-59c527cfcd42.jpeg)
 
-## Project definition:
-We are going to track the count of tweets countains Donald Trump words in a day. with that data we are going to try to find a correlation between Donald Trump count tweets with the usd dollar in mexcan pesos.
-
-## General objectives:
-- Get amount of tweets
-- Get the daily usa dollar price in mexican pesos
-- Find correlations between amout of tweets and usa dollar price 
-- Show  the correlation with a chart
 
 ## Software tools:
 - Tweepy
