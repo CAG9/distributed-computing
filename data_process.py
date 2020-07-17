@@ -1,11 +1,4 @@
 #!/usr/bin/env python3
-"""
-License Attribution-NonCommercial 4.0 International
-Contact:
-    César Arcos Gonzalez: racec9999@gmail.com
-    Saul Armas Gamiño: luasikirfl@gmail.com
-"""
-
 import mysql.connector
 from mysql.connector import errorcode
 import json
@@ -39,8 +32,8 @@ try:
     cnx = mysql.connector.connect(**config)
     cursor = cnx.cursor()
     cursor2= cnx.cursor()
-    query = ("SELECT date,tweet,dollar FROM tipo_cambio_tweets ORDER BY date")
-    query2= ("SELECT date,tweet,dollar FROM tipo_cambio_tweets ORDER BY date DESC LIMIT 5")
+    query = ("SELECT date,tweet,dollar FROM datos ORDER BY date")
+    query2= ("SELECT date,tweet,dollar FROM datos ORDER BY date DESC LIMIT 5")
     cursor.execute(query)
     for (date, tweet,dollar) in cursor:
         #print(f"{date}\t{tweet}\t{dollar}")
