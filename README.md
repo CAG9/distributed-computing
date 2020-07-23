@@ -103,3 +103,6 @@ We are working in our public web pages,the images are updated every day, current
 - Tweepy http://www.tweepy.org/      
 - Forex-python https://pypi.org/project/forex-python/
 
+## Conclusion
+We can watch a correlation the 06/30/2020 when the value reach the 10000+ tweets, the dollar increase its value.
+
