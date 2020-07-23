@@ -91,18 +91,15 @@ the x labels are the specific dates of our amount of tweets and dollar,an illust
 We are working in our public web pages,the images are updated every day, currently the web page works locally and was made it with django
 ![index](https://user-images.githubusercontent.com/60860385/87733612-e5f03280-c795-11ea-84a1-59c527cfcd42.jpeg)
 
+## Conclusion
+We can watch a correlation the 06/30/2020 when the value reach the 10000+ tweets, the dollar increase its value.
 
 ## Software tools:
 - Tweepy
 - Python
 - Forex-python
 
-
-
 ## Bibliography:
 - Tweepy http://www.tweepy.org/      
 - Forex-python https://pypi.org/project/forex-python/
-
-## Conclusion
-We can watch a correlation the 06/30/2020 when the value reach the 10000+ tweets, the dollar increase its value.
 
