@@ -92,7 +92,7 @@ We are working in our public web pages,the images are updated every day, current
 ![index](https://user-images.githubusercontent.com/60860385/87733612-e5f03280-c795-11ea-84a1-59c527cfcd42.jpeg)
 
 ## Conclusion
-We can watch a correlation the 06/30/2020 when the value reach the 10000+ tweets, the dollar increase its value.
+We can watch a correlation the 06/30/2020 when the value reach the 10000+ tweets, the dollar increase its value. For such things as this, the Decentralization is the future.
 
 ## Software tools:
 - Tweepy
