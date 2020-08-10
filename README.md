@@ -3,10 +3,8 @@
 Correlation between Donald Trump hashtag and the price of the american dollar in Mexiacan pesos
 
 ## Authors: 
-César Arcos Gonzalez, Saul Armas Gamiño
-
-## Contact information:
-César Arcos Gonzalez: racec9999@gmail.com, Saul Armas Gamiño:luasikirfl@gmail.com
+Cesar Arcos-Gonzalez: racec9999@gmail.com
+Saul Armas-Gamiño:luasikirfl@gmail.com
 
 ## License : 
 CC BY-NC
