@@ -57,9 +57,11 @@ We upload a json files that you can use to test, only download and put this file
 To execute first run collecting_data.py this file get the tweets and the usa dollar price and save the information in a json file,now execute storedb.py this script load our json files and save them in the database finally execute data_process.py this script will give you the chart.
 
 
-## implementation: 
-Code : racec9999/distributed-computing
-
+## Run 
+Open a terminal and run sequentially the following commands:
+- python3 collecting_data.py
+- python3 storedb.py
+- python3 data_process.py
 
 ## Project definition:
 We are going to track the count of tweets countains Donald Trump words in a day. with that data we are going to try to find a correlation between Donald Trump count tweets with the usd dollar in mexcan pesos.
@@ -70,13 +72,7 @@ We are going to track the count of tweets countains Donald Trump words in a day.
 - Find correlations between amout of tweets and usa dollar price 
 - Show  the correlation with a chart
 
-## Diagrams
--Processing data diagram
-![dataprocess](https://user-images.githubusercontent.com/60860385/80925163-448b4000-8d53-11ea-9d75-fb1c3dcf8dd6.jpg)
--Information flow diagram
-![dataflinternet](https://user-images.githubusercontent.com/60860385/80925268-e9a61880-8d53-11ea-8a7a-d05a0fcd7bc2.jpg)
--Logical connections diagram 
-![logicalconectionsinternet](https://user-images.githubusercontent.com/60860385/80925309-473a6500-8d54-11ea-859e-360af1b81bb2.jpg)
+
 
 ## Results:
 We can get a  pair of charts that show two lines,dollar to mexican pesos and the amount of tweets with the hashtag:#DonaldTrump
@@ -94,6 +90,14 @@ We can watch a correlation the 06/30/2020 when the value reach the 10000+ tweets
 - Tweepy
 - Python
 - Forex-python
+
+## Diagrams
+-Processing data diagram
+![dataprocess](https://user-images.githubusercontent.com/60860385/80925163-448b4000-8d53-11ea-9d75-fb1c3dcf8dd6.jpg)
+-Information flow diagram
+![dataflinternet](https://user-images.githubusercontent.com/60860385/80925268-e9a61880-8d53-11ea-8a7a-d05a0fcd7bc2.jpg)
+-Logical connections diagram 
+![logicalconectionsinternet](https://user-images.githubusercontent.com/60860385/80925309-473a6500-8d54-11ea-859e-360af1b81bb2.jpg)
 
 ## Bibliography:
 - Tweepy http://www.tweepy.org/      
