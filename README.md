@@ -1,6 +1,4 @@
-# Project Readme
-## Title: 
-Correlation between Donald Trump hashtag and the price of the american dollar in Mexiacan pesos
+# Trumpy
 
 ## Authors: 
 Cesar Arcos-Gonzalez: racec9999@gmail.com
