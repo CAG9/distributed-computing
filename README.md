@@ -13,10 +13,10 @@ Our goal is to find correlation between the amount of tweets with #DonaldTrump a
 
 ## Requirements
 First, you need to install Tweepy, Forex-python and MySQL, this projects run on linux.
-- pip install tweepy
-	-Tweepy require credentials you can get it here https://developer.twitter.com/en
-- pip install forex-python
-- sudo apt-get install mysql-server mysql-client
+* pip install tweepy
+    * Tweepy require credentials you can get it here https://developer.twitter.com/en
+* pip install forex-python
+* sudo apt-get install mysql-server mysql-client
     
 ## Installation
 Clone this repository then you need to create the database and the table to save the data, write the nexts commands on a terminal:
