@@ -43,13 +43,13 @@ Second, you need to install mysql-connector-python:
 	- pip install mysql-connector-python
 In case you get an error, you can find more information about how to install it here: https://www.a2hosting.com.mx/kb/developer-corner/mysql/connecting-to-mysql-using-python
 
-Next, you need create the directories where the resources will be, create a directory on your home page, named “project”, and inside of this, create a directories named “config” and ”graficas”, on “config” create a json document, named “db.json” whit the next data:
+After, you need to create the directories where the resources will be, create a new directory on your home page, named “project”, and inside of this, create a directories named “config” and ”graficas”, on “config” create a json document, named “db.json” whit the next data:
 
 	{"user":"your database user","password":"your database password","host":"127.0.0.1","database":"name of your 	         database","raise_on_warnings":true}
 
 
 
-In the folder “proyect” put the scripts “collecting_data.py”, ”data_process.py” and “storedb.py”, and the file “twitter_credentials.py”.
+In the folder “project” put the scripts “collecting_data.py”, ”data_process.py” and “storedb.py”, and the file “twitter_credentials.py”.
 
 You will need change a little details on “storedb.py” and “data_process”, change the variable PATH according to your project.
 
