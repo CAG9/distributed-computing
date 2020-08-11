@@ -55,8 +55,7 @@ Open a terminal and run sequentially the following commands:
 - python3 storedb.py
 - python3 data_process.py
 
-## Project definition:
-We are going to track the amount of tweets countains #DonaldTrump in a day. with that data we are going to try to find a correlation between Donald Trump count tweets with the usd dollar in mexcan pesos.
+
 
 ## General objectives:
 - Get amount of tweets
@@ -72,7 +71,7 @@ the x labels are the specific dates of our amount of tweets and dollar,an illust
 ![picture](https://user-images.githubusercontent.com/60860385/80922946-063b5400-8d46-11ea-8c93-3f2ac38ff3b7.png)
 
 ## Web Page
-We are working in our public web pages,the images are updated every day, currently the web page works locally and was made it with django
+You can watch our work here:http://www.gicc.unam.mx/blog/trumpy/
 ![index](https://user-images.githubusercontent.com/60860385/87733612-e5f03280-c795-11ea-84a1-59c527cfcd42.jpeg)
 
 ## Conclusion
