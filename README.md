@@ -31,7 +31,7 @@ On a MySQL terminal,you need to create a new user, use the next command:
 - Replace “new user” for your username, and “password” for your password.
 Now, create a database named “datos”, whit the next command:
 
-	CREATE DATABASE datos;
+	        CREATE DATABASE datos;
 - Create a new table named “tipo_cambio_tweets”,this table will contain the amount of tweets, the value of 1 Usa dollar in mexican pesos and the date of the request, use the following commands:
 
 	- USE datos;
