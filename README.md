@@ -8,21 +8,21 @@ Correlation between Donald Trump hashtag and the price of the american dollar in
 ## License : 
 CC BY-NC
 
-## Introductions: 
+## Introduction: 
 Our goal is to find correlation between the amount of tweets with #DonaldTrump and the Usa dollar price in Mexican pesos, to see if the decentralization of the currencies is the future. We get daily twitter data using the python library named Tweepy and the usa dollar price with Forex-python.
 
-
-## Installation and execution information:
-How to install and run this project on linux
-- First, you need to install Tweepy, Forex-python and MySQL:
-    - open a terminal and run the next code:
+## Requirements
+First, you need to install Tweepy, Forex-python and MySQL, this projects run on linux.
     - pip install tweepy
     - pip install forex-python
     - sudo apt-get install mysql-server mysql-client
-       - the system will ask your a password and a new one for the root user of MySQL
-    - now, you need create the database and the table to save the data, If you closed the terminal before install mysql, open it again, if it's already opened , write the nexts commands:
+    
+## Installation
+You need create the database and the table to save the data, write the nexts commands on a terminal:
     - sudo su
     - MySQL -h localhost -u root -p
+
+## prueba
     	
 ◦ MySQL  will ask you for the password that you created before when you install the service.
 When you are inside of MySQL, first, you need create a new user, for this, use the next code:
