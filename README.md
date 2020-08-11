@@ -92,11 +92,17 @@ We can watch a correlation the 06/30/2020 when the value reach the 10000+ tweets
 - Forex-python
 
 ## Diagrams
+
 -Processing data diagram
+
 ![dataprocess](https://user-images.githubusercontent.com/60860385/80925163-448b4000-8d53-11ea-9d75-fb1c3dcf8dd6.jpg)
+
 -Information flow diagram
+
 ![dataflinternet](https://user-images.githubusercontent.com/60860385/80925268-e9a61880-8d53-11ea-8a7a-d05a0fcd7bc2.jpg)
+
 -Logical connections diagram 
+
 ![logicalconectionsinternet](https://user-images.githubusercontent.com/60860385/80925309-473a6500-8d54-11ea-859e-360af1b81bb2.jpg)
 
 ## Bibliography:
