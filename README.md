@@ -37,7 +37,7 @@ Now, create a database named “datos”, whit the next command:
 <pre><code>Use datos</code></pre>
 <pre><code>CREATE TABLE tipo_cambio_tweets(date date, tweet int, dollar float, primary key(date));</code></pre>
 
- (or if you want another names, you can write whatever you want, but you will need change the document “db.json” that you will create in a future).Now the database is completed.
+ (you can write whatever name for you table,but you will change the document “storedb.py”).Now the database is completed.
 
 You need to edit db.json with your own data
 
@@ -51,6 +51,8 @@ Change the script “twitter_credentials.py” with your credentials.
 
 ## Run 
 Open a terminal and run sequentially the following commands:
+##you need to be located on te directory "project"
+- python3 conf_init.py (the code will ask you for the path where you put te repository)
 - python3 collecting_data.py
 - python3 storedb.py
 - python3 data_process.py
