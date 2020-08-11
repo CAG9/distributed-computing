@@ -26,15 +26,16 @@ Clone this repository then you need to create the database and the table to save
 ◦ MySQL  will ask you for the password that you created before when you installed.
 On a MySQL terminal,you need to create a new user, use the next command:
   
-		CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';
+<pre><code>CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';</code></pre>
     
 - Replace “new user” for your username, and “password” for your password.
 Now, create a database named “datos”, whit the next command:
 
-	        CREATE DATABASE datos;
+<pre><code>CREATE DATABASE datos;</code></pre>
+
 - Create a new table named “tipo_cambio_tweets”,this table will contain the amount of tweets, the value of 1 Usa dollar in mexican pesos and the date of the request, use the following commands:
-	- <div class="text-gray-dark mb-2">Use datos</div>
-	- CREATE TABLE tipo_cambio_tweets(date date, tweet int, dollar 	float, primary key(date));
+<pre><code>Use datos</code></pre>
+<pre><code>CREATE TABLE tipo_cambio_tweets(date date, tweet int, dollar float, primary key(date));</code></pre>
 
  (or if you want another names, you can write whatever you want, but you will need change the document “db.json” that you will create in a future).Now the database is completed.
 
