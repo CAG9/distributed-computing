@@ -45,7 +45,7 @@ In case you get an error, you can find more information about how to install it 
 
 After, you need to create the directories where the resources will be, create a new directory on your home page, named “project”, and inside of this, create a directories named “config” and ”graficas”, on “config” create a json document, named “db.json” whit the next data:
 
-	{"user":"your database user","password":"your database password","host":"127.0.0.1","database":"name of your 	         database","raise_on_warnings":true}
+	{"user":"User","password":"password","host":"127.0.0.1","database":"database","raise_on_warnings":true}
 
 
 
