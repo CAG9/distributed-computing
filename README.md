@@ -14,26 +14,25 @@ Our goal is to find correlation between the amount of tweets with #DonaldTrump a
 ## Requirements
 First, you need to install Tweepy, Forex-python and MySQL, this projects run on linux.
 - pip install tweepy
+	-Tweepy require credentials you can get it here https://developer.twitter.com/en
 - pip install forex-python
 - sudo apt-get install mysql-server mysql-client
     
 ## Installation
-You need create the database and the table to save the data, write the nexts commands on a terminal:
+Clone this repository then you need to create the database and the table to save the data, write the nexts commands on a terminal:
 - sudo su
 - MySQL -h localhost -u root -p
-
-## prueba
-    	
-◦ MySQL  will ask you for the password that you created before when you install the service.
-When you are inside of MySQL, first, you need create a new user, for this, use the next code:
+	
+◦ MySQL  will ask you for the password that you created before when you installed.
+On a MySQL terminal,you need to create a new user, use the next command:
   
 		CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';
     
-- on this command, replace “new user” for the username  you want, and “password” for a secure password.
-Then, create a database named “datos”, whit the next command:
+- Replace “new user” for your username, and “password” for your password.
+Now, create a database named “datos”, whit the next command:
 
 	CREATE DATABASE datos;
-- on this database, create a table named “tipo_cambio_tweets”,this table will contain the amount of tweets,the value of 1 Usa dollar in mexican pesos and the date of the request, for this use the nexts commands:
+- Create a new table named “tipo_cambio_tweets”,this table will contain the amount of tweets, the value of 1 Usa dollar in mexican pesos and the date of the request, use the following commands:
 
 	- USE datos;
 	- CREATE TABLE tipo_cambio_tweets(date date, tweet int, dollar 	float, primary key(date));
