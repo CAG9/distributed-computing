@@ -32,12 +32,11 @@ def insertar(data_query):
         cnx.close()
 
 if __name__ == "__main__":
-    PATH='/home/vdelaluz/git/distributed-computing/project/'
 
-    with open(PATH+'/config/'+'db.json') as json_file:
+    with open(path+'/config/'+'db.json') as json_file:
         config=json.load(json_file)
     
-    for filename in glob.glob(PATH+"*.json"):
+    for filename in glob.glob(path+"*.json"):
         print(filename)
         real_file = ntpath.basename(filename)  #filename[18:]
         with open(filename,'r') as f:

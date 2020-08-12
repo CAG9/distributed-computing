@@ -17,6 +17,7 @@ from datetime import datetime
 import json
 from datetime import timedelta
 
+
 class StdOutListener(StreamListener):#inherit from stream listener
     def on_data(self,data): #listening for tweets
         print(data)
@@ -50,7 +51,6 @@ if __name__ == "__main__":
         'dollar': dolar_price
         }
     
-    file_name = "/home/vdelaluz/git/distributed-computing/project/tweet_collector"+today+".json"
+    file_name = path+today+".json"
     with open(file_name,'w') as json_file:
         json.dump(save_file,json_file)
-

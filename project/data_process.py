@@ -12,13 +12,11 @@ import matplotlib.patches as mpatches
 import numpy as np
 from datetime import datetime
 
-PATH='/home/vdelaluz/git/distributed-computing/project/'
-PATH1='/home/vdelaluz/public_html/gicc/static/cursos/2020-II/datapirates/'
 today = datetime.today().strftime('%Y-%m-%d')
 #with open("db.json", "w") as write_file:
 #    json.dump(config, write_file)
 
-with open(PATH+'/config/'+'db.json') as json_file:
+with open(path+'/config/'+'db.json') as json_file:
     config = json.load(json_file)
 
     date_process = []
@@ -73,8 +71,8 @@ blue_patch = mpatches.Patch(color='blue',label = 'Tweets')
 green_patch = mpatches.Patch(color='green',label = 'Dollar')
 plt.legend(handles = [blue_patch,green_patch])
 #plt.grid(True)
-plt.savefig(PATH+'/graficas/'+'alldata'+'.png')
-plt.savefig(PATH1+'alldata'+'.png')
+plt.savefig(path+'/graphics/'+'alldata'+'.png')
+#plt.savefig(PATH1+'alldata'+'.png')
 plt.close()
 
 date_process_5.reverse()
@@ -91,6 +89,6 @@ blue_patch = mpatches.Patch(color='blue',label = 'Tweets')
 green_patch = mpatches.Patch(color='green',label = 'Dollar')
 plt.legend(handles = [blue_patch,green_patch])
 plt.grid(True)
-plt.savefig(PATH+'/graficas/'+'5days'+'.png')
-plt.savefig(PATH1+'5days'+'.png')
+plt.savefig(path+'/graphics/'+'5days'+'.png')
+#plt.savefig(PATH1+'5days'+'.png')
 plt.close()
