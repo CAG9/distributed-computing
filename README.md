@@ -50,8 +50,8 @@ Change the script “twitter_credentials.py” with your credentials.
 
 
 ## Run 
-Open a terminal and run sequentially the following commands:
-##you need to be located on te directory "project"
+Open a terminal and move to the folder "project" and run sequentially the following commands:
+
 - python3 conf_init.py 
 - python3 collecting_data.py
 - python3 storedb.py
