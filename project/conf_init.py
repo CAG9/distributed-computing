@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import sys
 print("Please write the path to install Trumpy:")
-print("Example : /home/user/Trumpy")
+print("Example: /home/user/Trumpy")
 ruta=input()
 variable='path= \''+ruta+'/distributed-computing-master/project/\''
 ruta=ruta+'/distributed-computing-master/project/'
