@@ -76,6 +76,7 @@ plt.savefig(path+'/graphics/'+'alldata'+'.png')
 plt.close()
 
 date_process_5.reverse()
+tweet_process_5.reverse()
 arr1 = np.array(tweet_process_5)
 arr1 = np.true_divide(arr1, 100)
 plt.plot(arr1,linestyle = "--",marker="o",color='blue')
