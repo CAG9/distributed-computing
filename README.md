@@ -19,7 +19,7 @@ First, you need to install Tweepy, Forex-python and MySQL, this projects run on 
 * sudo apt-get install mysql-server mysql-client
     
 ## Installation
-Clone this repository then you need to create the database and the table to save the data, write the nexts commands on a terminal:
+Clone this repository and change the file "conf_init.py" with your own path, then you need to create the database and the table to save the data, write the nexts commands on a terminal:
 - sudo su
 - MySQL -h localhost -u root -p
 	
@@ -52,7 +52,7 @@ Change the script “twitter_credentials.py” with your credentials.
 ## Run 
 Open a terminal and run sequentially the following commands:
 ##you need to be located on te directory "project"
-- python3 conf_init.py (the code will ask you for the path where you put te repository)
+- python3 conf_init.py 
 - python3 collecting_data.py
 - python3 storedb.py
 - python3 data_process.py
